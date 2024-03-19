@@ -5,7 +5,7 @@ import pygame
 from src.logic.game_logic import GameLogic
 from src.logic.static_methods import StaticMethods
 from src.logic.undo_services import UndoServices
-from src.ui.graphics.menugui import MenuGUI, Button
+from src.ui.graphics.menu_gui import MenuGUI, Button
 
 
 class GameGUI(MenuGUI):
@@ -101,7 +101,6 @@ class GameGUI(MenuGUI):
         pygame.display.update()
 
     def display_end(self, match_status: str):
-        print(self._game_logic.get_board.get_sequence)
         while True:
             self.screen.fill(self._colors["background_color"])
             self.display_board()

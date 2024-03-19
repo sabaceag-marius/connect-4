@@ -1,6 +1,6 @@
 from src.logic.game_logic import GameLogic
 from src.ui.graphics.game_gui import GamePVCUI
-from src.ui.graphics.menugui import MenuGUI, Button, CheckButton
+from src.ui.graphics.menu_gui import MenuGUI, Button, CheckButton
 from src.ui.menu_ui import MenuUI
 
 

@@ -1,4 +1,4 @@
-from src.ui.graphics.menugui import MenuGUI, Button
+from src.ui.graphics.menu_gui import MenuGUI, Button
 
 
 class TutorialMenu(MenuGUI):

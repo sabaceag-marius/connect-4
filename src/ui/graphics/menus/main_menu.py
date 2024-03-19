@@ -1,7 +1,7 @@
 import pygame
 from pygame.font import Font
 
-from src.ui.graphics.menugui import MenuGUI, Button
+from src.ui.graphics.menu_gui import MenuGUI, Button
 from src.ui.graphics.menus.play_menu import PlayMenu
 from src.ui.graphics.menus.tutorial_menu import TutorialMenu
 

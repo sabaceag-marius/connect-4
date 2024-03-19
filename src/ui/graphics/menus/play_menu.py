@@ -2,7 +2,7 @@ import pygame
 
 from src.logic.game_logic import GameLogic
 from src.ui.graphics.game_gui import GamePVPUI
-from src.ui.graphics.menugui import MenuGUI, Button
+from src.ui.graphics.menu_gui import MenuGUI, Button
 from src.ui.graphics.menus.play_computer_menu import PlayComputerMenu
 
 
